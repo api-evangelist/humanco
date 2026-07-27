@@ -1,7 +1,24 @@
 aid: humanco
-name: Humanco
-description: Humanco is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/humanco.png
+name: HumanCo
+description: HumanCo is a mission-driven consumer packaged goods and wellness holding company that builds and
+  acquires better-for-you food, beverage, and lifestyle brands made with real, clean ingredients and free of
+  seed oils and highly processed inputs. Its portfolio spans brands and concepts such as Against the Grain
+  (gluten-free foods), True Food Kitchen (health-focused restaurants), and Grove Collaborative (sustainable
+  home and personal care). Surfaced as a portfolio company of 500 Global and added to the API Evangelist
+  network. HumanCo operates a marketing and e-commerce web presence but publishes no public developer API,
+  SDKs, or technical developer platform at this time.
 url: https://raw.githubusercontent.com/api-evangelist/humanco/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Consumer Packaged Goods
+- Food and Beverage
+- Wellness
+- Health
+- E-Commerce
+- Sustainability
+- Portfolio Company
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/humanco-domain-security.yml
 - type: Website
-  url: https://human.co
+  url: https://www.humanco.com
+- type: Support
+  url: https://www.humanco.com/contact-us
+- type: TermsOfService
+  url: https://www.humanco.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.humanco.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
