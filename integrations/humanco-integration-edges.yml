@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/humanco/integrations
+- https://n8n.io/integrations/humanco/
+- https://composio.dev/toolkits/humanco
+- https://monid.ai/tools/humanco
+checked:
+- https://composio.dev/toolkits/humanco
+- https://monid.ai/tools/humanco
+- https://n8n.io/integrations/humanco/
+- https://zapier.com/apps/humanco/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
